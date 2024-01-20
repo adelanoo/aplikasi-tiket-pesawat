@@ -1,15 +1,27 @@
-# flicker-flight-app
+# Aplikasi-Pemesanan-Tiket-Pesawat-
+Tugas Akhir Mata Kuliah Teknologi Mobile Responsive (Universitas Teknologi Yogyakarta)   
 
-How to use :<br>
-1. Make sure you also grabbed the API https://github.com/DjakaTechnology/flicker-flight-api<br>
-2. Run your API in your public ip address (e.g 192.168.1.4)<br>
-3. Change ip in URL in Util\Constant.kt to your ip address<br>
-4. Run<br>
+# Cara Menggunakan API Flicker Flight
 
-## Login Cridentials
+1. Put this folder project to your public www folder (e.g xampp/htdocs)
+2. Rename .env.example to .env
+3. Open .env and edit it to match your database configuration
+4. Open cmd/terminal
+5. Go to you folder (e.g xampp/htdocs/flicker-api)
+6. Get passport by typing this command :
+composer require laravel/passport
+7. Install passport by typing this command :
+php artisan passport:install
+8. Generate app key by typing this command :
+php artisan key:generate
+9. Run this by using this command :
+php artisan serve --host your.ip.address --port your port (e.g php aritsan serve --host 192.168.1.4 --port 80)
+or
+php artisan serve (to run in your 127.0.0.1:8000)
+10. Open in the browser by typing your ipaddress
+11. Finish
+
+
+## Login Admin :
 Username : djakajaya89@gmail.com<br>
-Password : 2001<br>
-
-![Screenshot_20190419-161844](https://user-images.githubusercontent.com/19620593/56418778-2c6c8e00-62c2-11e9-89c2-e320b3dfef2e.png)
-
-#### WARNING : This Source code is not production ready beacuse I haven't implement any securities
+Password : 2001
